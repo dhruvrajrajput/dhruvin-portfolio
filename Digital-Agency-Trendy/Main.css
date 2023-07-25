@@ -232,9 +232,9 @@
 .border-none {
   border: none;
 }
-.project-card-width {
+/* .project-card-width {
   width: 30rem;
-}
+} */
 .project-card-btn {
   width: 100%;
   max-width: 30rem;

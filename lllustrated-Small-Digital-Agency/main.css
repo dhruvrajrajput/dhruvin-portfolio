@@ -13,8 +13,8 @@
 /* NavBar And Navbar Btn */
 .navbar-color {
   color: #546182;
-  font-size: 15px;
-  margin-left: 15px;
+  font-size: 14px;
+  /* margin-left: 15px; */
   font-weight: 500;
   border-bottom: 3px solid #f8f9fa;
 }
@@ -352,7 +352,7 @@
 .card-position {
   position: absolute;
   top: 188px;
-  left: 30px;
+  left: 73px;
 }
 
 .card-position-mo {
