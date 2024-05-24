@@ -245,9 +245,34 @@
     }
   });
 
+    // Typed JS Basic Main Cover Text Change
+  new Typed('#typed', {
+    strings : ['Web Designer', 'Mobile Application Designer'],
+    typeSpeed : 80, //50
+    delaySpeed : 10,
+    loop : true
+  });
+
+  // My Resume Download Btn JS
+  var doc = new jsPDF();
+  var specialElementHandlers = {
+    '#editor': function (element, renderer) {
+      return true;
+    }
+  };
+
+  $('#cmd').click(function () {
+    doc.fromHTML($('#content').html(), 15, 15, {
+      'width': 170,
+      'elementHandlers':
+      specialElementHandlers
+    });
+    doc.save('sample-file.pdf');
+  });
+  
+
   /**
    * Initiate Pure Counter 
    */
   new PureCounter();
-
 })()
