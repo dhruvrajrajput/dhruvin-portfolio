@@ -103,7 +103,7 @@
   padding: 10px 30px;
   box-sizing: border-box;
 }
-.container .nav ul.menu li:hover a,
+.container .nav ul.menu .active li:hover a,
 .container .nav ul.menu li a.color {
   color: var(--color-royalblue-100);
   font-weight: 500;
